@@ -9,8 +9,7 @@ const getElementsFromDB = async() => {
 
 const getCostElements = async _ => {
   const elements = await getElementsFromDB();
-  const cost = elements.reduce((acc, el) => acc + el.price, 0);
-  return cost;
+  return elements.reduce((acc, el) => acc + el.price, 0);
 };
 
 
