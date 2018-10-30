@@ -1,0 +1,14 @@
+{
+  "name": "manage-formation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -u tdd"
+  },
+  "keywords": [
+    "npm-library"
+  ],
+  "author": "Alberto Eyo",
+  "license": "ISC"
+}
